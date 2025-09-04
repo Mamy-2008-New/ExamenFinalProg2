@@ -18,5 +18,7 @@ public class Eseignents extends Etudiant {
         this.specialite = specialite;
     }
 
-
+    public static void main(String[] args) {
+        Eseignents Teacher1 = new Eseignents(1, "Smith", "Alice", java.time.Instant.parse("1975-03-15T08:00:00Z"), "azerty@mail.delta.com", "514-555-8765", "PROG2");
+    }
 }

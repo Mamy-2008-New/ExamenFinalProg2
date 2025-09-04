@@ -18,4 +18,8 @@ public class Tuteur extends Etudiant {
         this.liens = liens;
     }
 
+    public static void main(String[] args) {
+        Tuteur Tutor1 = new Tuteur(1, "Doe", "Jane", java.time.Instant.parse("1980-05-20T09:30:00Z"), "compa@com.sad", "514-555-5678", java.util.Arrays.asList(new liens(), new liens()));
+    }
+
 }

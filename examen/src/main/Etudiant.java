@@ -68,4 +68,8 @@ public class Etudiant {
 
         return totalCoef == 0 ? 0 : somme / totalCoef;
     }
+
+    public static void main(String[] args) {
+        Etudiant Student1 = new Etudiant(1, "Doe", "John", java.time.Instant.parse("2008-11-31T10:42:10Z"), "estrala@mail.delta.com", "514-555-1234", "G1", "Jane Doe");
+    }
 }
