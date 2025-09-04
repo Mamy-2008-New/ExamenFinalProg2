@@ -23,4 +23,14 @@ public class noteEtudiant {
         return note;
     }
 
+    public void setNote(double note) {
+        this.note = note;
+    }
+
+    public double getNoteWithCoef() {
+        return coef.valeur * note;
+    }
+
+    
+
 }

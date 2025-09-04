@@ -29,4 +29,6 @@ public class examen {
     public double setCoefs(double note) {
         return note * coef.valeur;
     }
+
+    
 }
