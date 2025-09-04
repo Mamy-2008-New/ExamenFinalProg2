@@ -8,4 +8,17 @@ public class noteEtudiant {
         this.coef = coef;
         this.note = note;
     }
+
+    public Etudiant getEtudiant() {
+        return etudiant;
+    }
+
+    public Coef getCoef() {
+        return coef;
+    }
+
+    public double getNote() {
+        return note;
+    }
+    
 }
