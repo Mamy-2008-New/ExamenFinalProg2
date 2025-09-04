@@ -41,6 +41,7 @@ public class Cours {
     }
 
     public static void main(String[] args) {
-        Cours course1 = new Cours(101, java.util.Arrays.asList(new label(label.TypeLabel.MATIERE, "Mathematics"), new label(label.TypeLabel.NIVEAU, "Beginner")), java.util.Arrays.asList(new Coef(label.TypeLabel.MATIERE, 2), new Coef(label.TypeLabel.NIVEAU, 1)), java.util.Arrays.asList(new Eseignents(1, "Smith", "Alice", java.time.Instant.parse("1975-03-15T08:00:00Z"))));
+        Cours course1 = new Cours(101, java.util.Arrays.asList(new label(label.TypeLabel.MATIERE, "PROG2"), new label(label.TypeLabel.NIVEAU, "Beginner")), java.util.Arrays.asList(new Coef(label.TypeLabel.MATIERE, 2), new Coef(label.TypeLabel.NIVEAU, 1)), java.util.Arrays.asList(new Eseignents(1, "Smith", "Alice", java.time.Instant.parse("1975-03-15T08:00:00Z"))));
+        Cours course2 = new Cours(102, java.util.Arrays.asList(new label(label.TypeLabel.MATIERE, "PROG1", new label(label.TypeLabel.NIVEAU, "Intermediate")), java.util.Arrays.asList(new Coef(label.TypeLabel.MATIERE, 3), new Coef(label.TypeLabel.NIVEAU, 2)), java.util.Arrays.asList(new Eseignents(2, "Johnson", "Bob", java.time.Instant.parse("1980-07-22T10:15:00Z")))));
     }
 }
