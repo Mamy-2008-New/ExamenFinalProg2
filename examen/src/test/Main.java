@@ -7,5 +7,8 @@ public class Main {
         Tutor1.setLiens(java.util.Arrays.asList(new liens(), new liens()));
         Tutor1.getLiens().add(new liens());
         Eseignents Teacher1 = new Eseignents(1, "Smith", "Alice", java.time.Instant.parse("1975-03-15T08:00:00Z"), "azerty@mail.delta.com", "514-555-8765", "PROG2");
+
+        Student1.getExamGrades().add(new noteEtudiant(Student1, Teacher1, 85.5));
+        Student1.getExamGrades().add(new noteEtudiant(Student1, Teacher1, 90.0));
     }
 }
