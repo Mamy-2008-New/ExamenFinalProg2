@@ -9,5 +9,11 @@ public class Coef {
         this.valeur = valeur;
     }
 
+    public label.TypeLabel getLabel() {
+        return label;
+    }
 
+    public int getValeur() {
+        return valeur;
+    }
 }
