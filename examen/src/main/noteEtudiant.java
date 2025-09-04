@@ -1,3 +1,5 @@
+package main;
+
 public class noteEtudiant {
     private Etudiant etudiant;
     private Coef coef;
@@ -20,5 +22,5 @@ public class noteEtudiant {
     public double getNote() {
         return note;
     }
-    
+
 }

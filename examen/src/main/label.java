@@ -1,3 +1,5 @@
+package main;
+
 public class label {
     public enum TypeLabel {
         PROG1,

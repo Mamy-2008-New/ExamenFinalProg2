@@ -1,3 +1,5 @@
+package main;
+
 import java.time.Instant;
 import java.util.List;
 
@@ -47,7 +49,15 @@ public class Etudiant {
         return tuteur;
     }
 
-    public double calculerMoyenne(List<noteEtudiant> notes) {
+    public double getExamGrade(List<noteEtudiant> notes) {
+        double somme = 0;
+        for (noteEtudiant noteEtudiant : notes) {
+            somme += noteEtudiant.getNote();
+        }
+        return notes.isEmpty() ? 0 : somme / notes.size();
+    }
+
+    public double getFinalGrade(List<noteEtudiant> notes) {
         double somme = 0;
         int totalCoef = 0;
 

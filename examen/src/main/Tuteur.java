@@ -1,3 +1,5 @@
+package main;
+
 import java.time.Instant;
 import java.util.List;
 
@@ -8,4 +10,12 @@ public class Tuteur extends Etudiant {
         super(id, nom, prenom, dateDeNaissance, email, telephone, null, null);
         this.liens = liens;
     }
+
+    public List<liens> getLiens() {
+        return liens;
+    }
+    public void setLiens(List<liens> liens) {
+        this.liens = liens;
+    }
+
 }

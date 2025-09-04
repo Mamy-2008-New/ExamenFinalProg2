@@ -1,3 +1,5 @@
+package main;
+
 public class Coef {
     public label.TypeLabel label;
     public int valeur;
@@ -7,5 +9,5 @@ public class Coef {
         this.valeur = valeur;
     }
 
-    
+
 }
