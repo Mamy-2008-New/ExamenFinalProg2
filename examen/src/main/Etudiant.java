@@ -11,7 +11,7 @@ public class Etudiant {
     private String email;
     private String telephone;
     private final String groupe;
-    private final String tuteur;
+    private final List<Tuteur> tuteur;
 
     public Etudiant(int id, String nom, String prenom, Instant dateDeNaissance, String email, String telephone, String groupe, String tuteur) {
         this.id = id;
